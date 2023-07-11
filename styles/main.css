@@ -186,3 +186,24 @@ header {
   padding-left: 20px;
   border: none;
 }
+
+/* footer section */
+
+.footer-container{
+  margin-top: 150px;
+  padding: 120px;
+  background: #111010;
+  color: white;
+}
+.footer-container h3{
+  color: white;
+
+}
+.footer-container p{
+  color: rgba(255, 255, 255, 0.90);
+
+}
+.footer-container .copyright{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+}
