@@ -47,14 +47,6 @@ header {
 .banner-info > p {
   margin: 30px 0px;
 }
- .btn {
-  display: block;
-  padding: 15px 43px;
-  border: none;
-  background-color: #e55473;
-  color: white;
-  border-radius: 9px;
-}
 .banner-img {
   width: 400px;
 }
@@ -164,7 +156,40 @@ header {
 .social-flowers img{
   width: 250px;
 }
-
+/* order now */
+.order-now-container{
+  background-color: #fceef1;
+  padding: 50px;
+  margin-top: 150px;
+}
+.order-now-container > form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.order-now-container form input, textarea{
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 500px;
+  padding: 20px 25px;
+}
+.order-detail{
+  display: flex;
+  width: 550px;
+  gap: 20px;
+}
+.order-detail input[type="text"]{
+  width: 400px;
+}
+.order-detail input[type="number"]{
+  width: 100px;
+}
+textarea{
+  height: 200px;
+}
 /* get latest */
 .latest-deals-container{
   margin: 0 auto  ;
