@@ -149,3 +149,40 @@ header {
     margin: 20px 0px;
     color: rgba(39, 39, 39, 0.60);
 }
+
+/* social */
+.social-container{
+  margin-top: 150px;
+}
+.social-flowers{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.social-flowers img{
+  width: 250px;
+}
+
+/* get latest */
+.latest-deals-container{
+  margin: 0 auto  ;
+  width: 800px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  background: url('/assets/Rectangle_9.png') no-repeat;
+}
+.latest-deals-inputs{
+  display: flex;
+  gap: 20px;
+}
+.latest-deals-inputs input[type="text"]{
+  width: 600px;
+  padding-left: 20px;
+  border: none;
+}
