@@ -200,7 +200,7 @@ textarea{
   align-items: center;
   flex-direction: column;
   margin-top: 150px;
-  background: url('/assets/Rectangle_9.png') no-repeat;
+  background: url('../assets/Rectangle_9.png') no-repeat;
 }
 .latest-deals-inputs{
   display: flex;
